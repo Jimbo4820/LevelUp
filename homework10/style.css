@@ -33,7 +33,7 @@ h3{
 }
 
 .conteiner{
-    /*background: url(https://image.freepik.com/free-vector/no-translate-detected_7450-471.jpg);*/
+    
     width: 600px;
     height: 100%;
     color: white;
@@ -46,53 +46,16 @@ h3{
     flex-wrap: wrap;
 }
 
-/*.conteiner_2{
-    /*background: url(https://image.freepik.com/free-vector/no-translate-detected_7450-471.jpg);
-    width: 600px;
-    height: 100%;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-end;
-}
 
-/*.conteiner_3{
-    /*background: url(https://image.freepik.com/free-vector/no-translate-detected_7450-471.jpg);
-    width: 600px;
-    height: 100%;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.conteiner_4{
-    /*background: url(https://image.freepik.com/free-vector/no-translate-detected_7450-471.jpg);
-    width: 600px;
-    height: 100%;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-}*/
 
 .box{
     width: 220px;
     height: 200px;
 }
 
-ul{
-    border-top: 3px solid white;
-    padding-top: 7px;
+h3{
+    border-bottom: 3px solid white;
+    
 }
 
 img{
