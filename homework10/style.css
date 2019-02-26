@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body{
     background-color: rgb(43, 43, 43);
     margin: 0;
@@ -10,39 +15,25 @@ body{
     width: 600px;
     height: 100%;
     display: flex;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-around;
+    font-weight: bold;
+    text-transform: uppercase;
     align-items: center;
     background: linear-gradient(to bottom right,rgba(255, 32, 32, 0.85), rgba(238, 0, 0, 0.479)), url(foto/index.jpg);
     background-size: 100% 100%;
     margin: 0 auto;
+    flex-wrap: wrap;
 }
 
 h3{
     text-align: center;
 }
 
-
-
-.conteiner{
-    
-    width: 600px;
-    height: 100%;
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: flex-start;
-    flex-wrap: wrap;
-}
-
-
-
 .box{
     width: 220px;
-    height: 200px;
+    height: 190px;
+    color: white;
+    margin-top: 5px;
 }
 
 h3{
@@ -58,4 +49,5 @@ img{
 
 li{
     list-style: none;
+    margin: 8px;
 }
