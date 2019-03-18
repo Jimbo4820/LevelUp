@@ -1,0 +1,98 @@
+*{
+    margin: auto;
+    padding: auto;
+}
+
+body{
+    background: rgb(26, 26, 26);
+}
+
+form{
+    width: 200px;
+    height: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 5px;
+    text-align: center;
+    background: rgb(80, 80, 80);
+}
+.title{
+    height: 30px;
+    border-radius: 5px;
+    padding: 2px;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    background: linear-gradient(60deg, gray 14%, red 10%);
+}
+
+hr{
+    padding: 1px;
+}
+
+input[type=text],input[type=password]{
+    width: 170px;
+    height: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin: 4px;
+    background: gray;
+}
+
+input[type=text]:focus,input[type=password]:focus{
+    width: 170px;
+    height: 20px;
+    border: 3px solid green;
+    border-radius: 5px;
+    margin: 4px;
+    background: gray;
+}
+
+.checkbox{
+    height: 20px;
+    padding: 5px;
+}
+
+label{
+    color: white;
+}
+
+input[type=button]{
+    border: 1px solid black;
+    margin-left: 10px; 
+    border-radius: 5px;
+    background: gray;
+    color: white;
+    box-shadow: 5px 3px 5px black;
+    width: 56px;
+    height: 22px;
+}
+
+input[type=button]:hover{
+    text-decoration: underline;
+    background: rgb(82, 82, 82);
+    color: rgb(255, 254, 254);
+    box-shadow: 0 0 0;
+}
+
+.link{
+    padding: auto;
+    height: 27px;
+}
+
+.withLine{
+    border-right: 1px solid gray;
+    padding-right: 4px;
+}
+
+a{
+    text-decoration: none;
+    color: gray;
+}
+
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
