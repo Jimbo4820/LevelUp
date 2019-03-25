@@ -8,14 +8,20 @@ function singIn(){
         alert("Введите имя");
         document.getElementById("username").style.border="3px solid red";
     
-    }if (pass.test(password) == false || password == ""){
+    }else{
+        document.getElementById("username").style.border="1px solid gray";
+    }    
+        
+    if(pass.test(password) == false || password == ""){
         alert("Введите пароль");
         document.getElementById("password").style.border="3px solid red";
     
     }else{
-        document.getElementById("username").style.border="1px solid gray";
         document.getElementById("password").style.border="1px solid gray";
+    }
+
+    if(letter.test(name) == true && pass.test(password) == true){
         alert("Вы залогинились");
     }
-    
+
 }
