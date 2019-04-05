@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    
+</head>
+<body>
+    <div class="page">
+        <div class="form">
+            <form class="signIn">
+                <input type="text" name="name" placeholder="username">
+                <input type="password" name="pass" placeholder="password">
+                <input type="button" name="but" value="Login">
+                <p class="bottom">Not registered? 
+                    <a href="#">Create an account</a>
+                </p>
+            </form>
+            <form class="register">
+                <input type="text" name="name" placeholder="name">
+                <input type="password" name="pass" placeholder="password">
+                <input type="email" name="email" placeholder="email address">
+                <input type="button" name="but" value="CREATE">
+                <p class="bottom">Already registered? 
+                    <a href="#">Sign in</a>
+                </p>
+            </form>
+        </div>
+    </div>
+
+    <script>
+$('.bottom a').click(function(){
+   $('form').animate({height: 'toggle', opacity: 'toggle'}, 'slow');
+});
+    </script>
+</body>
+</html>
