@@ -6,6 +6,7 @@ function singIn(){
     
     if (letter.test(name) == false || name == "" || name == " "){
         alert("Введите имя");
+        alert("Username должен состоять только из маленьких букв");
         document.getElementById("username").style.border="1px solid red";
     
     }else{
@@ -14,6 +15,7 @@ function singIn(){
         
     if(pass.test(password) == false || password == ""){
         alert("Введите пароль");
+        alert("Пароль должен иметь от 6 до 16 символов, цифры использовать нельзя");
         document.getElementById("password").style.border="1px solid red";
     
     }else{
