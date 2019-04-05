@@ -6,7 +6,7 @@ function singIn(){
     
     if (letter.test(name) == false || name == "" || name == " "){
         alert("Введите имя");
-        document.getElementById("username").style.border="3px solid red";
+        document.getElementById("username").style.border="1px solid red";
     
     }else{
         document.getElementById("username").style.border="1px solid gray";
@@ -14,7 +14,7 @@ function singIn(){
         
     if(pass.test(password) == false || password == ""){
         alert("Введите пароль");
-        document.getElementById("password").style.border="3px solid red";
+        document.getElementById("password").style.border="1px solid red";
     
     }else{
         document.getElementById("password").style.border="1px solid gray";

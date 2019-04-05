@@ -1,0 +1,94 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+}
+
+body{
+    background: url("foto_2.png") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.signIn{
+    width: 40%;
+    height: 80%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+img{
+    width: 260px;
+    height: 230px;
+}
+
+input[type="text"], input[type="password"]{
+    background: rgb(207, 207, 251);
+    width: 70%;
+    height: 50px;
+    padding-left: 80px;
+    margin: 10px;
+    font-size: 16px;
+    border: none;
+}
+
+.fa-lock{
+    width: 45px;
+    height: 40px;
+    color: rgb(0, 0, 140);
+    position: absolute;
+    top: 320px;
+    left: 60px;
+}
+
+.fa-user{
+    width: 45px;
+    height: 40px;
+    color: rgb(0, 0, 140);
+    position: absolute;
+    top: 250px;
+    left: 60px;
+}
+
+input[type="checkbox"]{
+    position: absolute;
+    top: 400px;
+    left: 40px;
+    
+}
+
+.word{
+    position: relative;
+    top: 20px;
+    right: 160px;
+    color: #fafaff;
+}
+
+.signIn a{
+    position: relative;
+    top: -15px;
+    left: 285px;
+    text-decoration: none;
+    color: #fafaff;
+    font-style: italic;
+}
+
+.signIn a:hover{
+    text-decoration: underline;
+}
+
+button{
+    width: 45%;
+    height: 50px;
+    background: rgb(58, 58, 58);
+    color: #fafaff;
+    text-transform: uppercase;
+    position: relative;
+    top: 80px;
+    right: 75px;
+    border: none;
+    box-shadow: 2px 2px 15px black;
+    font-size: 16px;
+}
