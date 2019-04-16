@@ -1,0 +1,122 @@
+*{
+    margin: 0 auto;
+    padding: 0 auto;
+    font-family: 'Roboto';
+}
+
+body{
+    background: url(bg.jpg)no-repeat;
+    background-size: 100%;
+}
+
+.allForm{
+    width: 450px;
+    height: 550px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#form{
+    width: 450px;
+    height: 450px;
+    border: 1px solid rgba(255, 255, 255, 0.400);
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.400);
+}
+
+.userFoto{
+    position: absolute;
+    bottom: 497px;
+    left: 175px;
+}
+
+.title{
+    font-size: 30px;
+    color: gray;
+    margin: 5px;
+    margin-top: 80px;
+}
+
+input[type="text"],input[type="password"]{
+    width: 200px;
+    height: 65px;
+    padding: 0 60px;
+    margin: 15px;
+    border-radius: 10px;
+    border: none;
+}
+
+.user{
+    position: absolute;
+    top: 150px;
+    left: 85px;
+}
+
+
+.lock{
+    position: absolute;
+    top: 238px;
+    right: 330px;
+}
+
+input[type="button"]{
+    width: 320px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: rgb(86, 113, 187);
+}
+
+input[type="button"]:hover{
+    width: 320px;
+    height: 65px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    color: white;
+    background: rgb(56, 85, 167);
+}
+
+.checkbox{
+    widows: 320px;
+    height: 65px;
+    margin: 20px;
+    color: rgb(189, 189, 189);
+}
+
+label{
+    font-size: 14px;
+}
+
+a{
+    float: right;
+    margin-right: 50px;
+    text-decoration: none;
+    color: rgb(189, 189, 189);
+    font-size: 16px;
+}
+
+.footer{
+    width: 430px;
+    height: 20px;
+    margin: 50px 0;
+    border-top: 2px solid rgb(189, 189, 189);
+    padding: 10px;
+}
+
+.footer a{
+    margin-right: 90px;
+    font-weight: 800;
+}
+
+.text{
+    float: left;
+    margin-left: 60px;
+    color: rgb(189, 189, 189);
+    font-weight: 100;
+}
